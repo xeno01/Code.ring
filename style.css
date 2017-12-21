@@ -186,6 +186,10 @@ header{
     background-color: white;
 }
 
+#b_3_h2{
+    color:#777777;
+}
+
 .b_3_box{
     height:200px;
     width: 350px;
@@ -249,6 +253,23 @@ header{
     transition:all 0.2s;
 }
 
+.b_4_box{
+    background-color: white;
+    color: rgba(0,0,0,0.5);
+    text-align: center; 
+}
+.b_4_box h1{
+    color: rgba(0,0,0,0.7);
+}
+
+
+
+
+
+
+
+
+
 #box_text{
 
     display:inline;
@@ -280,9 +301,6 @@ header{
     margin-top:-10px;
 }
 
-
-
-
 #box_3_h3{
     padding:1px 1px;
     padding-left:10px;
@@ -298,12 +316,75 @@ header{
     margin-left: auto;
 }
 
+
 #box_3_h3:hover{
     background-color: rgba(255,255,255,0.3);
     transition:all 0.3s;
 }
 #box_3_h3{
     color: white;
-    text-decoration: non                e;
+    text-decoration: none;
 }
+
+.mail{
+    background-color: rgba(255,255,255,0.7);
+    padding:200px;
+    text-align: center;
+}
+#mail_img{
+    height:30px;
+    width: 30px;
+    vertical-align: middle;
+}
+#mail_text{
+    color: #4B4B4B;
+    padding-left:10px;
+    vertical-align: middle;
+}
+#mail_box{
+    font-size: 23px;
+    background-color: white;
+    border: solid 3px rgba(228, 112, 112,0.8);
+    transition:all 0.3s;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:45px;
+    text-decoration: none;
+    padding-right:10px;
+}
+#mail_box:hover{
+    background-color:rgba(228, 112, 112,1);
+}
+
+
+
+
+footer{
+    background-color: #3D3D3D;
+    color: #777777;
+    font-size:15px;
+    padding-top:50px;
+
+    display: flex;/*高さ揃え*/
+}
+
+#footer_topic{
+    font-size:20px;
+    font-weight:bold;
+    color: #949494;
+    margin-left:20px;
+}
+
+#footer_content:hover{
+    text-decoration: underline;
+}
+
+.footer_left{
+    display: inline-block;  /*横並び*/
+    display: table-cell; /* IE8から使用可能 */
+    vertical-align: middle;
+    
+  
+}
+
 
