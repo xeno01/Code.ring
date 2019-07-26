@@ -99,6 +99,7 @@ header{
     /*改行無くす*/
     display: inline-block;
     color: white;
+    background-color:rgba(0,0,0);
 }
 
 #b_1_con{
@@ -108,6 +109,8 @@ header{
     padding-top: 30px;
     margin-left: 450px;
 }
+
+
 
 #b_1_2{
     text-align: left;
@@ -181,10 +184,6 @@ header{
 }
 
 
-.b_3{
-    text-align: center; 
-    background-color: white;
-}
 
 #b_3_h2{
     color:#777777;
