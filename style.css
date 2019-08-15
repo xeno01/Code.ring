@@ -1,16 +1,13 @@
-body{
+body {
     background-color: black;
-    background-image: url(http://cdn-ak.f.st-hatena.com/images/fotolife/s/soccer1356abc/20160328/20160328043905.png);
-
-    margin:0;
-    background-position: 50% 50%;            /* 背景画像の位置は画面中央 */
-    background-attachment:fixed;             /* 背景画像を固定する */
+    background-image: url(img/back.png);
+    margin: 0;
+    background-position: 50% 50%;
+    background-attachment: fixed;
     background-size: cover;
 }
 
-
-
-#wrapper{
+#wrapper {
     overflow: hidden;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -18,9 +15,9 @@ body{
     background-size: cover;
 }
 
-header{
-    background-color: rgba(0,0,0,0.7);
-    color: rgba(255,255,255,0.9);
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 0.9);
     font-size: 30px;
     height: 100px;
     width: 100vw;
@@ -29,45 +26,45 @@ header{
     position: fixed;
 }
 
-
-.in_up{
+.in_up {
     padding: 10px 30px;
-    height:40px;
+    height: 40px;
     color: white;
-    background-color: rgba(255,255,255,0.1);
-    border: 1px solid rgba(255,255,255,0.9);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.9);
     border-radius: 100px;
     text-align: left;
-    transition:all 0.5s;
+    transition: all 0.5s;
     margin-left: auto;
 }
 
-.in_up:hover{
-    background-color: rgba(255,255,255,0.3);
-    transition:all 0.3s;
+.in_up:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.3s;
 }
-#in_up_text{
+
+#in_up_text {
     color: white;
     text-decoration: none;
 }
-#big_h1{
+
+#big_h1 {
     font-size: 50px;
 }
 
-
-.d_button{
+.d_button {
     float: right;
-    padding-right:80px;
+    padding-right: 80px;
 }
 
-#rogo{
-    height:30px;
-    width:30px;
+#rogo {
+    height: 30px;
+    width: 30px;
     border-radius: 500px;
 }
 
-.big_img{
-    background-color:rgba(0,0,0,0.3);
+.big_img {
+    background-color: rgba(0, 0, 0, 0.3);
     -repeat: no-repeat;
     width: 100vw;
     height: 600px;
@@ -75,34 +72,30 @@ header{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
 }
 
-.big_text{
+.big_text {
     color: white;
-    text-align: center; 
-    padding-top:150px;
+    text-align: center;
+    padding-top: 150px;
 }
 
-.down1{
+.down1 {
     font-size: 40px;
     color: white;
 }
 
-
-.b_1{
-    background-image: url(http://free-illustrations-ls01.gatag.net/images/lgi01a201409202300.jpg);
+.b_1 {
     background-repeat: no-repeat;
     width: 100%;
     height: 150px;
     background-size: cover;
-    /*改行無くす*/
     display: inline-block;
     color: white;
-    background-color:rgba(0,0,0);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-#b_1_con{
+#b_1_con {
     text-align: left;
     width: 80px;
     height: 100px;
@@ -110,87 +103,80 @@ header{
     margin-left: 450px;
 }
 
-
-
-#b_1_2{
+#b_1_2 {
     text-align: left;
     margin-top: -130px;
     padding-left: 550px;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
 
-.b_2{
-    text-align: center; 
+.b_2 {
+    text-align: center;
     background-color: white;
 }
 
-.b_2_box{
-    height:200px;
+.b_2_box {
+    height: 200px;
     width: 650px;
     display: inline-block;
     text-decoration: none;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     border: none;
     color: gray;
     font-weight: bold;
-    margin:10px;
+    margin: 10px;
     text-align: left;
     vertical-align: middle;
-    transition:all 0.3s;
-}
-.b_2_box:hover{
-    background-color: rgba(0,0,0,0.2);
-    transition:all 0.3s;
+    transition: all 0.3s;
 }
 
-#b_2_box_icon{
-    height:160px;
+.b_2_box:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+#b_2_box_icon {
+    height: 160px;
     width: 250px;
-    padding-left:20px;
-    padding-top:20px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
-#box_text{
-
-    color: rgba(0,0,0,0.7);
-    display:inline;
-    vertical-align:middle;
-    float:right;
+#box_text {
+    color: rgba(0, 0, 0, 0.7);
+    display: inline;
+    vertical-align: middle;
+    float: right;
     padding-top: 45px;
     padding-right: 25px;
 }
 
-#box_2_h1{
-    font-size:20px;
-    color: rgba(0,0,0,0.7);
+#box_2_h1 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
 }
 
-#box_2_h2{
-    color: rgba(0,0,0,0.5);
+#box_2_h2 {
+    color: rgba(0, 0, 0, 0.5);
     font-size: 11px;
 }
 
-.b_3{
-    text-align: center; 
+.b_3 {
+    text-align: center;
     background-color: white;
-    color: rgba(0,0,0,0.7);
-   
+    color: rgba(0, 0, 0, 0.7);
 }
 
-
-
-#b_3_h1{
+#b_3_h1 {
     border-bottom: 1px solid gray;
 }
 
-
-
-#b_3_h2{
-    color:#777777;
+#b_3_h2 {
+    color: #777777;
 }
 
-.b_3_box{
-    height:200px;
+.b_3_box {
+    height: 200px;
     width: 350px;
     border-radius: 10px;
     display: inline-block;
@@ -198,192 +184,191 @@ header{
     border: none;
     color: gray;
     font-weight: bold;
-    margin:30px;
+    margin: 30px;
     text-align: left;
 }
 
-.b_3_box_1{
-    background-color: rgba(228, 112, 112,0.8);
-    transition:all 0.2s;
-
-}
-.b_3_box_1:hover{
-    background-color: rgba(228, 112, 112,1);
-    transition:all 0.2s;
-}
-.b_3_box_2{
-    background-color: rgba(119, 124, 124,0.8);
-    transition:all 0.2s;
-}
-.b_3_box_2:hover{
-    background-color: rgba(119, 124, 124,1);
-    transition:all 0.2s;
-}
-.b_3_box_3{
-    background-color: rgba(140, 124, 124,0.8);
-    transition:all 0.2s;
-}
-.b_3_box_3:hover{
-    background-color: rgba(140, 124, 124,1);
-    transition:all 0.2s;
-}
-.b_3_box_4{
-    background-color: rgba(39, 141, 141,0.8);
-    transition:all 0.2s;
-}
-.b_3_box_4:hover{
-    background-color: rgba(39, 141, 141,1);
-    transition:all 0.2s;
-}
-.b_3_box_5{
-    background-color: rgba(153, 153, 153,0.8);
-    transition:all 0.2s;
-}
-.b_3_box_5:hover{
-    background-color: rgba(153, 153, 153,1);;
-    transition:all 0.2s;
-}
-.b_3_box_6{
-    background-color: rgba(164, 196, 196,0.8);
-    transition:all 0.2s;
-}
-.b_3_box_6:hover{
-    background-color: rgba(164, 196, 196,1);
-    transition:all 0.2s;
+.b_3_box_1 {
+    background-color: rgba(228, 112, 112, 0.8);
+    transition: all 0.2s;
 }
 
-.b_4_box{
+.b_3_box_1:hover {
+    background-color: rgba(228, 112, 112, 1);
+    transition: all 0.2s;
+}
+
+.b_3_box_2 {
+    background-color: rgba(119, 124, 124, 0.8);
+    transition: all 0.2s;
+}
+
+.b_3_box_2:hover {
+    background-color: rgba(119, 124, 124, 1);
+    transition: all 0.2s;
+}
+
+.b_3_box_3 {
+    background-color: rgba(140, 124, 124, 0.8);
+    transition: all 0.2s;
+}
+
+.b_3_box_3:hover {
+    background-color: rgba(140, 124, 124, 1);
+    transition: all 0.2s;
+}
+
+.b_3_box_4 {
+    background-color: rgba(39, 141, 141, 0.8);
+    transition: all 0.2s;
+}
+
+.b_3_box_4:hover {
+    background-color: rgba(39, 141, 141, 1);
+    transition: all 0.2s;
+}
+
+.b_3_box_5 {
+    background-color: rgba(153, 153, 153, 0.8);
+    transition: all 0.2s;
+}
+
+.b_3_box_5:hover {
+    background-color: rgba(153, 153, 153, 1);
+    ;
+    transition: all 0.2s;
+}
+
+.b_3_box_6 {
+    background-color: rgba(164, 196, 196, 0.8);
+    transition: all 0.2s;
+}
+
+.b_3_box_6:hover {
+    background-color: rgba(164, 196, 196, 1);
+    transition: all 0.2s;
+}
+
+.b_4_box {
     background-color: white;
-    color: rgba(0,0,0,0.5);
-    text-align: center; 
-}
-.b_4_box h1{
-    color: rgba(0,0,0,0.7);
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
+.b_4_box h1 {
+    color: rgba(0, 0, 0, 0.7);
+}
 
-
-
-
-
-
-
-
-#box_text{
-
-    display:inline;
-    vertical-align:middle;
-    float:right;
+#box_text {
+    display: inline;
+    vertical-align: middle;
+    float: right;
     padding-top: 50px;
     padding-right: 25px;
     color: white;
 }
 
-#box_3_h1{
-    font-size:20px;
-    top:40px;
+#box_3_h1 {
+    font-size: 20px;
+    top: 40px;
 }
 
-#box_3_h2{
-    color: rgba(0,0,0,0.5);
+#box_3_h2 {
+    color: rgba(0, 0, 0, 0.5);
     font-size: 11px;
     text-align: right;
     padding-right: 5px;
-    margin-top:-20px;
+    margin-top: -20px;
 }
 
-#b_3_box_icon{
+#b_3_box_icon {
     height: 100px;
-    width:  100px;
+    width: 100px;
     border-radius: 100px;
-    vertical-align:middle;
-    margin-top:-10px;
+    vertical-align: middle;
+    margin-top: -10px;
 }
 
-#box_3_h3{
-    padding:1px 1px;
-    padding-left:10px;
-    margin-top:3px;
-    height:40px;
-    width:137px;
-    font-size:15px;
+#box_3_h3 {
+    padding: 1px 1px;
+    padding-left: 10px;
+    margin-top: 3px;
+    height: 40px;
+    width: 137px;
+    font-size: 15px;
     color: white;
-    background-color: rgba(255,255,255,0.1);
-    border: 1px solid rgba(255,255,255,0.9);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.9);
     border-radius: 100px;
-    transition:all 0.5s;
+    transition: all 0.5s;
     margin-left: auto;
 }
 
-
-#box_3_h3:hover{
-    background-color: rgba(255,255,255,0.3);
-    transition:all 0.3s;
+#box_3_h3:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.3s;
 }
-#box_3_h3{
+
+#box_3_h3 {
     color: white;
     text-decoration: none;
 }
 
-.mail{
-    background-color: rgba(255,255,255,0.7);
-    padding:200px;
+.mail {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 200px;
     text-align: center;
 }
-#mail_img{
-    height:30px;
+
+#mail_img {
+    height: 30px;
     width: 30px;
     vertical-align: middle;
 }
-#mail_text{
+
+#mail_text {
     color: #4B4B4B;
-    padding-left:10px;
+    padding-left: 10px;
     vertical-align: middle;
 }
-#mail_box{
+
+#mail_box {
     font-size: 23px;
     background-color: white;
-    border: solid 3px rgba(228, 112, 112,0.8);
-    transition:all 0.3s;
-    padding-top:50px;
-    padding-bottom:50px;
-    padding-left:45px;
+    border: solid 3px rgba(228, 112, 112, 0.8);
+    transition: all 0.3s;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 45px;
     text-decoration: none;
-    padding-right:10px;
-}
-#mail_box:hover{
-    background-color:rgba(228, 112, 112,1);
+    padding-right: 10px;
 }
 
+#mail_box:hover {
+    background-color: rgba(228, 112, 112, 1);
+}
 
-
-
-footer{
+footer {
     background-color: #3D3D3D;
     color: #777777;
-    font-size:15px;
-    padding-top:50px;
-
-    display: flex;/*高さ揃え*/
+    font-size: 15px;
+    padding-top: 50px;
+    display: flex;
 }
 
-#footer_topic{
-    font-size:20px;
-    font-weight:bold;
+#footer_topic {
+    font-size: 20px;
+    font-weight: bold;
     color: #949494;
-    margin-left:20px;
+    margin-left: 20px;
 }
 
-#footer_content:hover{
+#footer_content:hover {
     text-decoration: underline;
 }
 
-.footer_left{
-    display: inline-block;  /*横並び*/
-    display: table-cell; /* IE8から使用可能 */
+.footer_left {
+    display: inline-block;
+    display: table-cell;
     vertical-align: middle;
-    
-  
 }
-
-
